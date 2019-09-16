@@ -19,6 +19,7 @@ configurations {
 }
 
 repositories {
+    aliyun{url 'http://maven.aliyun.com/nexus/content/groups/public'}
     maven { url 'http://10.2.8.132:8082/repository/wonders/' } // 自定义库地址
 }
 
